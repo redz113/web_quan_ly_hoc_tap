@@ -1,0 +1,20 @@
+.check{
+    background: #6EE76E;
+    padding: 16px;
+    margin-top: 0px;
+    text-align: center;
+    animation: modalFadeIn 0.5s;
+}
+
+.check_error{
+    background: pink !important;
+}
+
+@keyframes modalFadeIn{
+    from{
+        transform: translateY(-50px);
+    }
+    to{
+        transform: translateY(0px);
+    }
+}
